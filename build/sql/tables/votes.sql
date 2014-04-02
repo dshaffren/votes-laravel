@@ -1,0 +1,11 @@
+CREATE TABLE votes
+(
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    color_id INT UNSIGNED NOT NULL,
+    city_id INT UNSIGNED NOT NULL,
+    vote_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY  (color_id) REFERENCES colors(id),
+    FOREIGN KEY  (city_id)  REFERENCES cities(id)
+) ENGINE = InnoDB;
+
