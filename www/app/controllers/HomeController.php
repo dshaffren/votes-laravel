@@ -17,7 +17,9 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
-		return View::make('hello');
+        $colors = Color::all();
+
+        return View::make('hello')->with('colors', $colors);
 	}
 
 }

@@ -11,7 +11,6 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', 'HomeController@showWelcome');
+Route::controller('votes', 'VoteController');
+// Route::get('/votes/count/{colorName}', 'VoteController@countColorVotes');
