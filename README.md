@@ -23,7 +23,7 @@ To generate a MySQL dump file with all tables and test data:
  $ make
 ```
 
-The Makefile will generate tables and data available in a single MySQL dump file: ```build/sql/dump.sql```.
+The Makefile will generate tables and data into a single MySQL dump file: ```build/sql/dump.sql```.
 
 The test data can be tweaked by altering the PHP CLI [test data generation script](build/scripts/generate_data.php).
 
