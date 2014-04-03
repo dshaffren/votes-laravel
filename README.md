@@ -11,6 +11,7 @@ There is a [live demo](http://vote.bitmakr.com) available.
 - [SQL Query](www/app/models/Vote.php)
 - [API Vote Controller](www/app/controllers/VoteController.php)
 - [View](www/app/views/hello.blade.php)
+- [Makefile](build/Makefile) - Makefile for fun
 
 ## Deployment Instructions
 
