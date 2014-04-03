@@ -69,6 +69,9 @@ $(document).ready(function() {
                     }).done(function(msg) {
                         $tr.find('.votes').text(msg.votes);
                     });
+
+            return false;
+
         });
 
     // calculate total
@@ -85,6 +88,8 @@ $(document).ready(function() {
 
         $('#total').text(total);
         $('#total').parents('tr').addClass('info');
+
+        return false;
 
     });
 });
