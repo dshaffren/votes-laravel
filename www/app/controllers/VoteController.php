@@ -6,7 +6,7 @@ class VoteController extends BaseController {
 	{
             return Response::json(
                 array('colorId' => $colorId,
-                      'votes'   => Vote::getVotesByColor($colorId)[0]->votes));
+                      'votes'   => Vote::getVotesByColor($colorId)));
 	}
 
 }
