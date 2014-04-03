@@ -4,7 +4,7 @@
 
 Deployed using a PHP MVC Framework: Laravel for the purpose of maintainability.
 
-There is a [live demo](http://votes.bitmakr.com) available.
+There is a [live demo](http://vote.bitmakr.com) available.
 
 ## Relevant Files
 - [MySQL tables](build/sql/tables) - <i>note use of InnoDB foreign key constraints</i>
