@@ -4,9 +4,9 @@ class VoteController extends BaseController {
 
 	public function getColorCount($colorId)
 	{
-        return Response::json(
-            array('colorId' => $colorId,
-                  'votes' => Vote::getVotesByColor($colorId)[0]->votes));
+            return Response::json(
+                array('colorId' => $colorId,
+                      'votes'   => Vote::getVotesByColor($colorId)[0]->votes));
 	}
 
 }
