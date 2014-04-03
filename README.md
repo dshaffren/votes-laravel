@@ -7,7 +7,7 @@ Deployed using a PHP MVC Framework: Laravel for the purpose of maintainability.
 There is a [live demo](http://votes.bitmakr.com) available.
 
 ## Relevant Files
-- [MySQL tables](build/sql/tables)
+- [MySQL tables](build/sql/tables) - <i>note use of InnoDB foreign key constraints</i>
 - [SQL Query](www/app/models/Vote.php)
 - [API Vote Controller](www/app/controllers/VoteController.php)
 - [View](www/app/views/hello.blade.php)
