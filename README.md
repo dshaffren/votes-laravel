@@ -29,4 +29,9 @@ The test data can be tweaked by altering the PHP CLI [test data generation scrip
 
 Please be sure to set proper credentials in the Laravel [configuration file](www/app/config/database.php).
 
+Install [composer](https://getcomposer.org/).
+
+Run ```composer install``` in ```www``` to download Laravel dependencies.
+
+
 
